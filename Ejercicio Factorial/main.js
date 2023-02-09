@@ -14,16 +14,18 @@ window.onload = () => {
     //Poner el input en blanco
     val.value = "";
 
-    for (var i = 1; i = num; i++) {
-        num = num * (5);
-        console.log(num,"desde for")
-      }
+    for(var i = 0; i <= num; i++){
+      num = (num -1);
+      console.log(num, "num");
+      console.log(i,"i");
+    }
+     
 
-    function FirstFactorail(num) {
+/*     function FirstFactorail(num) {
 
       return num;
-    }
+    } 
 
-    console.log(FirstFactorail(num));
+    console.log(FirstFactorail(num));*/
   };
 };
